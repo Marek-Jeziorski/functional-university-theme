@@ -16,6 +16,7 @@
     <div class="full-width-split__one">
         <div class="full-width-split__inner">
             <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
+
             <div class="event-summary">
                 <a class="event-summary__date t-center" href="#">
                     <span class="event-summary__month">Mar</span>
@@ -98,22 +99,21 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="hero-slider__slide"
-            style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg') ?>);">
-            <div class="hero-slider__interior container">
-                <div class="hero-slider__overlay">
-                    <h2 class="headline headline--medium t-center">Free Food</h2>
-                    <p class="t-center">Fictional University offers lunch plans for those in need.</p>
-                    <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+            <div class="hero-slider__slide"
+                style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg') ?>);">
+                <div class="hero-slider__interior container">
+                    <div class="hero-slider__overlay">
+                        <h2 class="headline headline--medium t-center">Free Food</h2>
+                        <p class="t-center">Fictional University offers lunch plans for those in need.</p>
+                        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
     </div>
-    <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
 </div>
 </div>
-
 <?php get_footer();
 
 ?>
